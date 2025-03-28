@@ -9,4 +9,4 @@ class Config(object):
     AUTH_USERS = [int(7517045929) for user_id in AUTH_USER]  # Ensuring list of integers
 
     HOST ="https://api.masterapi.tech" # Keeping HOST configurable
-    CREDIT = "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"# Making CREDIT an environment variable for flexibility
+    CREDIT = "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" # Making CREDIT an environment variable for flexibility
