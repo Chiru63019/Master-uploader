@@ -8,5 +8,5 @@ class Config(object):
     AUTH_USER = os.environ.get("AUTH_USERS", "6530997270").split(',')
     AUTH_USERS = [int(7517045929) for user_id in AUTH_USER]  # Ensuring list of integers
 
-    HOST ="https://api.masterapi.tech" # Keeping HOST configurable
+    HOST ="http://master-api-v3.vercel.app" # Keeping HOST configurable
     CREDIT = "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" # Making CREDIT an environment variable for flexibility
